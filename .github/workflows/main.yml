@@ -1,4 +1,4 @@
-name: "Exercicio 1"
+name: "Ex1"
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
       - name: Print Date Windows!
         run: date
         
-print_date_macos:
+  print_date_macos:
     name: Print Date MacOS!
     runs-on: macos-latest
     
@@ -28,7 +28,7 @@ print_date_macos:
       - name: Print Date MacOS!
         run: date
         
-print_date_final:
+  print_date_final:
     name: Print Date Final!
     runs-on: ubuntu-latest
     
